@@ -1,4 +1,4 @@
-FORM java:8
+FROM java:8
 COPY JavaHelloWorld.java .
 RUN javac JavaHelloWorld.java 
 
